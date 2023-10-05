@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.con>h1 {
+  color: #333;
+}
+
+.input-container {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: red;
+  color: white;
+  border-radius: 12px;
+  min-height: 20vh;
+}
+.hlable,label{
+  margin: auto;
+  padding:1%;
+}
+input[type="text"] {
+  width: 100%;
+  font-size: 16px;
+  border: 0;
+}
+
+button {
+  margin: 1%;
+  font-size: 16px;
+  background-color:white;
+  color: rgb(223, 3, 3);
+  border: none;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  min-height: 60%;
+}
+
+.name-tag {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.delete-icon {
+  color: red;
+  margin-left: 10px;
+  cursor: pointer;
+}
